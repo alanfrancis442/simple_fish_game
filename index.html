@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&family=Rubik+Iso&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="playarea" id="playarea">
+        <dialog class="modal" id="modal">
+            <p class="over">Game Over!!!</p>
+        </dialog>
+        <div class="score" id="score">0</div>
+        <video muted loop>
+            <source src="assets/bg2.mp4" type="video/mp4">
+        </video>
+        <div class="player" id="player">
+            <img src="assets/fish.png">
+        </div>
+        <div class="sand" id="sand">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
